@@ -1,0 +1,372 @@
+/***
+ * CS385 Project
+ * Student Chi Ieong Ng
+ * Date: 16-12-2022
+ */
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  padding-top: 20px;
+  text-align: center;
+}
+
+.topic {
+  text-decoration: none;
+  color: black;
+}
+
+.topic:hover {
+  color: grey;
+}
+
+.topBar {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.topRight {
+  width: 10%;
+  text-align: right;
+  vertical-align: bottom;
+}
+
+.co2Table {
+  padding-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.loginInput {
+  font-size: 16px;
+  padding: 5px 10px;
+}
+
+.loginButton {
+  background-color: grey;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.loginButton:hover {
+  background-color: blue;
+}
+
+.logout {
+  background-color: white;
+  color: black;
+  border: none;
+  font-size: 16px;
+}
+
+.logout:hover {
+  color: blue;
+}
+
+.co2value {
+  font-size: 70px;
+  font-weight: bold;
+}
+
+.co2unit {
+  font-size: 12px;
+  padding-bottom: 10px;
+  vertical-align: bottom;
+}
+
+.co2Reduction {
+  font-size: 20px;
+}
+
+.requestButton {
+  background-color: rgb(100, 149, 72);
+  border: none;
+  color: white;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.requestButton:hover {
+  background-color: darkgreen;
+}
+
+.offerButton {
+  background-color: rgb(192, 51, 105);
+  border: none;
+  color: white;
+  width: 200px;
+  height: 60px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 15px;
+}
+
+.offerButton:hover {
+  background-color: rgb(139, 0, 58);
+}
+
+.requestPage {
+  background-color: rgb(100, 149, 72);
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.requestForm {
+  text-align: left;
+}
+
+.requestTitle {
+  padding-top: 20px;
+  padding-left: 35px;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.requestTextField {
+  font-size: 14px;
+  width: 235px;
+  height: 20px;
+}
+
+.requestCountySelecter {
+  font-size: 14px;
+  width: 138px;
+}
+.requestCountrySelecter {
+  font-size: 14px;
+  width: 105px;
+}
+
+.requestSubmit {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.requestSubmitButton {
+  background-color: rgb(46, 78, 20);
+  border: none;
+  color: white;
+  width: 200px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.requestSubmitButton:hover {
+  background-color: black;
+}
+
+.confirmTitle {
+  padding-top: 20px;
+  padding-left: 18px;
+  padding-bottom: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.confirmBottom {
+  padding-top: 10px;
+  text-align: center;
+}
+
+.confirmButton {
+  background-color: rgb(46, 78, 20);
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.confirmButton:hover {
+  background-color: black;
+}
+
+.confirmCancelButton {
+  background-color: red;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.confirmCancelButton:hover {
+  background-color: darkred;
+}
+
+.spacer {
+  height: 10px;
+}
+
+.offerPage {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.offerTable {
+  min-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 10px;
+}
+
+.offerTitle {
+  background-color: rgb(192, 51, 105);
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.offerrSearchBox {
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.detailButton {
+  font-size: 8px;
+}
+
+.reportPage {
+  background-color: rgb(209, 139, 177);
+  border-radius: 15px;
+  width: 250px;
+  height: 450px;
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.reportTable {
+  text-align: left;
+  font-size: 14px;
+}
+
+.reportTitle {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.reportBottom {
+  padding-top: 30px;
+  text-align: center;
+}
+
+.reportConfirmButton {
+  background-color: rgb(109, 18, 71);
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.reportConfirmButton:hover {
+  background-color: black;
+}
+
+.reportCancelButton {
+  background-color: black;
+  border: none;
+  color: white;
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 15px;
+}
+
+.reportCancelButton:hover {
+  background-color: grey;
+}
+
+.searchBoxTable {
+  width: 100%;
+}
+
+.searchBoxLeft {
+  width: 75%;
+  text-align: left;
+}
+
+.searchBoxRight {
+  text-align: right;
+}
+
+.sortingSelecter {
+  font-size: 10px;
+}
+
+.errorMessage {
+  font-size: 10px;
+  color: red;
+}
+
+.createAccount {
+  font-size: 10px;
+  text-decoration: none;
+  color: blue;
+}
+
+.SignupPage {
+  margin-top: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.SignupTable {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.SignupTitle {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  font-size: 20px;
+  font-weight: bold;
+}
